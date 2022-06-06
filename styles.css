@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    padding: 0 20px;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    margin-left: auto;
+}
+
+.header li{
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+}
+
+.footer p{
+    color: white;
+}
