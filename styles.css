@@ -23,6 +23,17 @@ body{
 
 .header li{
     color: white;
+    list-style: none;
+    padding: 5px;
+}
+
+.header li:hover{
+    color: aqua;
+}
+
+.header img{
+    height: 75px;
+    width: auto;
 }
 
 .footer{
@@ -41,6 +52,11 @@ body{
     background-color: #1f2937;
 }
 
+.content-first img{
+    height: 300px;
+    width: auto;
+}
+
 .top{
     text-align: center;
 }
@@ -49,6 +65,12 @@ body{
     display: flex;
     justify-content: center;
     padding: 10px;
+    flex-wrap: wrap;
+}
+
+.btm img{
+    width: 300px;
+    height: auto;
 }
 
 img{
@@ -63,6 +85,7 @@ img{
 
 .content-third{
     text-align: center;
+    background-color: #e5e7eb;
 }
 
 .content-fourth{
