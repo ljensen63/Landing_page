@@ -6,7 +6,7 @@ body{
 
 .header{
     display: flex;
-    padding: 0 20px;
+    padding: 0 100px;
     background-color: #1f2937;
     color: white;
     align-items: center;
@@ -24,7 +24,7 @@ body{
 .header li{
     color: white;
     list-style: none;
-    padding: 5px;
+    padding: 15px;
 }
 
 .header li:hover{
