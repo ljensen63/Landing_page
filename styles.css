@@ -50,11 +50,27 @@ body{
     align-items: center;
     padding: 50px;
     background-color: #1f2937;
+    justify-content: center;
 }
 
 .content-first img{
     height: 300px;
     width: auto;
+}
+
+.content-first h2{
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.content-first p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left{
+    flex-basis: 400px;
 }
 
 .top{
@@ -70,7 +86,9 @@ body{
 
 .btm img{
     width: 300px;
-    height: auto;
+    height: 300px;
+    border: 5px solid #1f2937;
+    border-radius: 5%;
 }
 
 img{
@@ -84,8 +102,12 @@ img{
 }
 
 .content-third{
-    text-align: center;
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-third p{
 }
 
 .content-fourth{
